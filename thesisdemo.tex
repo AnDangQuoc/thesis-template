@@ -1,3 +1,6 @@
+% This is a copy version from https://github.com/thanhhungqb/thesis-template
+% Please do not modified this project, when you want to start writing, make a clone of it for your own (Please read README.md)
+
 \documentclass[12pt,a4paper,oneside]{book} % twoside for draf
 
 %\usepackage{babel}
@@ -14,16 +17,13 @@
 
 \usepackage{bkthesis}
 
-%\csdeptname{KHOA ĐIỆN ĐIỆN TỬ}
 %\crname{BÁO CÁO THỰC TẬP TỐT NGHIỆP}
-% \crname{BÁO CÁO TIỂU LUẬN}
-%\ctname{TÊN LUẬN VĂN / ĐỒ ÁN}
-\ctname{TEN LVTN}
+\ctname{TÊN LUẬN VĂN / ĐỒ ÁN}
 \cstuname{SVTH: Võ Thị Thuy}
 
 \csCouncil{Khoa học máy tính}
-\csSupervise{PGS. TS. Phạm Hồng Luân}
-\csReviewer{TS. Pham Van Hai}
+\csSupervise{ThS. Võ Thanh Hùng}
+\csReviewer{???}
 \cttime{1/2016}
 
 \thesislayout
@@ -42,30 +42,30 @@
 %-	Danh mục TL tham khảo
 %-	Phụ lục (nếu có)
 
-\coverpage
+%\coverpage
 
-\frontmatter
+%\frontmatter
 
 % add content here
 %-	Lời cam đoan
-\begin{declaration}
-	Tôi xin cam đoan...
-\end{declaration}
+% \begin{declaration}
+% 	Tôi xin cam đoan...
+% \end{declaration}
 
 %-	Lời cảm ơn/ Lời ngỏ
-\begin{acknowledgments}
-	Tôi xin chân thành cảm ơn ...
-\end{acknowledgments}
+% \begin{acknowledgments}
+% 	Tôi xin chân thành cảm ơn ...
+% \end{acknowledgments}
 
 %-	Tóm tắt LV
-\begin{abstract}
-	Tóm tắt luận văn ...
-\end{abstract}	
+% \begin{abstract}
+% 	Tóm tắt luận văn ...
+% \end{abstract}	
 	
 \tableofcontents
 %\listofsymbols
-\listoftables
-\listoffigures
+% \listoftables
+% \listoffigures
 %\listofalgorithms
 
 
@@ -79,10 +79,13 @@
 
 \pagestyle{fancy}  % Finally, use the "fancy" page style to implement the FancyHdr headers
 
-\input{demo-Chapter1.tex}
+%\input{demo-Chapter1.tex}
 %\input{demo-Chapter2.tex}
 %\input{Chapter3.tex}
+\input{weeklyReport.tex}
 
+\bibliography{refs}{}
+\bibliographystyle{plain}
 %-	Danh mục TL tham khảo
 %-	Phụ lục (nếu có)
 
